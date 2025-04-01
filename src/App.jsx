@@ -6,7 +6,7 @@ import {useState, useEffect} from 'react';
 //import components
 //import People from './components/People.jsx';
 import BootAcc from './components/BootAcc.jsx';
-import PeopleTabs from './components/PeopleTabs.jsx';
+import PeopleTabs from './components/people/PeopleTabs.jsx';
 
 //get the css
 import './App.css';

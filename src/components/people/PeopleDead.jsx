@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 
 import './People.css';
-import getData from '../util/GetData.js';
+import getData from '../../util/GetData.js';
 
 const People = (faculty) => {
     // const [getter, setter] = useState(init);

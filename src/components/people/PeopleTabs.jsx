@@ -3,9 +3,9 @@ import {useState, useEffect} from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
-import PeopleGroup from '../components/PeopleGroup.jsx';
+import PeopleGroup from './PeopleGroup.jsx';
 
-import getData from '../util/GetData.js';
+import getData from '../../util/GetData.js';
 import './People.css';
 
 function PeopleTabs() {
