@@ -5,8 +5,10 @@ import {useState, useEffect} from 'react';
 
 //import components
 //import People from './components/People.jsx';
-import BootAcc from './components/BootAcc.jsx';
+// import BootAcc from './components/BootAcc.jsx';
 import PeopleTabs from './components/people/PeopleTabs.jsx';
+import DegreesTabs from './components/degrees/DegreesTabs.jsx';
+import MinorsAcc from './components/degrees/minors/MinorsAcc.jsx';
 
 //get the css
 import './App.css';
@@ -36,7 +38,7 @@ const App = () => {
     <>
       <div className="stick">
         <h1>Welcome to the iSchool Website!</h1>
-        <div>...Menu Component</div>
+        <div></div>
       </div>
       <div className="App">
         <h1>Loading...</h1>
@@ -48,21 +50,19 @@ const App = () => {
     <>
       <div className="stick">
         <h1>Welcome to the iSchool Website!</h1>
-        <div>...Menu Component</div>
+        <div></div>
       </div>
       <div className="App">
-        <div className="About">
-          <h3>{aboutObj.title}</h3>
-          <h6>{aboutObj.description}</h6>
-          <div className="quote">{aboutObj.quote}</div>
-          <h5>--{aboutObj.quoteAuthor}--</h5>
-        </div>
+          <div className="About">
+            <h3>{aboutObj.title}</h3>
+            <h6>{aboutObj.description}</h6>
+            <div className="quote">{aboutObj.quote}</div>
+            <h5>--{aboutObj.quoteAuthor}--</h5>
+          </div>
         <hr/>
         <PeopleTabs/>
-        {/* This is a comment, what the fuck. This is horrible. */}
-        {/* first, lets build something to grab people. */}
-        {/* <People /> */}
-        <BootAcc/>
+        <DegreesTabs/>
+        <MinorsAcc/>
       </div>
     </>
   )

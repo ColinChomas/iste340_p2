@@ -26,7 +26,7 @@ function DegreesTabs() {
         <>
             <h1>iSchool Degrees</h1>
             <Tabs
-                defaultActiveKey="masters"
+                defaultActiveKey="undergraduate"
                 id="uncontrolled-tab-example"
                 className="mb-3"
             >
