@@ -22,7 +22,7 @@ function MinorsAcc() {
     return (
         <>
             <h2>iSchool Minors</h2>
-            <Accordion defaultActiveKey="0">
+            <Accordion>
                 {minors.UgMinors.map((m, index) =>
                     <Accordion.Item eventKey={index.toString()} key={index}>
                         <Accordion.Header>{m.title}</Accordion.Header>

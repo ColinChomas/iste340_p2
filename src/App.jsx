@@ -9,6 +9,7 @@ import {useState, useEffect} from 'react';
 import PeopleTabs from './components/people/PeopleTabs.jsx';
 import DegreesTabs from './components/degrees/DegreesTabs.jsx';
 import MinorsAcc from './components/degrees/minors/MinorsAcc.jsx';
+import Employment from './components/statistics/Employment.jsx';
 
 //get the css
 import './App.css';
@@ -63,6 +64,7 @@ const App = () => {
         <PeopleTabs/>
         <DegreesTabs/>
         <MinorsAcc/>
+        <Employment/>
       </div>
     </>
   )
