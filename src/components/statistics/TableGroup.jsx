@@ -1,6 +1,7 @@
 import Table from './Table.jsx';
 import getData from '../../util/GetData.js'; // .js not required, just nice for human readability
 import { useState, useEffect } from 'react';
+import './TableGroup.css';
 
 const TableGroup = () => {
     //state
@@ -22,8 +23,10 @@ const TableGroup = () => {
     return (
         <>
             <h1>Tables</h1>
-            <Table data={stats.coopTable} datakey="coopInformation"/>
-            <Table data={stats.employmentTable} datakey="professionalEmploymentInformation"/>
+            <div className ="table-group">
+                <Table data={stats.coopTable} datakey="coopInformation"/>
+                <Table data={stats.employmentTable} datakey="professionalEmploymentInformation"/>
+            </div>
         </>
     )
 }

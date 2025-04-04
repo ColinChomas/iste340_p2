@@ -1,9 +1,10 @@
 import Accordion from 'react-bootstrap/Accordion';
+import './Degrees.css';
 
 const DegreesGroup = ({title, degGroup}) => {
     return (
         <>
-            <Accordion defaultActiveKey="0">
+            <Accordion defaultActiveKey="0" className="degreesAccordion">
                 {degGroup.map((d) => {
                     if (d.title) {
                         return (

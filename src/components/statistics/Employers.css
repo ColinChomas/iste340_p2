@@ -1,0 +1,26 @@
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.employers {
+    column-count: auto;
+    column-width: 200px;
+    /* display: flex; */
+    padding: 1rem;
+}
+
+.employerName {
+    font-size: 1.2em;
+    /* font-weight: bold; */
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: rgb(134, 10, 35);
+}

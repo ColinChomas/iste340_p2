@@ -50,7 +50,7 @@ const Table = ({ data, datakey }) => {
     return (
         <>
             <div>
-                <Button onClick={handleOpen}>{data.title}</Button>
+                <Button className="btn btn-primary" onClick={handleOpen}>{data.title}</Button>
                 <Modal open={open} onClose={handleClose}>
                     <Box sx={style}>
                         <h2>{data.title}</h2>

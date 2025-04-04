@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 
 import getData from '../../util/GetData.js';
+import './DegreeStatistics.css';
 
 function DegreeStatistics() {
     //state 

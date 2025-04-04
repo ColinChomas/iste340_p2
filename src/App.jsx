@@ -57,14 +57,17 @@ const App = () => {
           <div className="About">
             <h3>{aboutObj.title}</h3>
             <h6>{aboutObj.description}</h6>
-            <div className="quote">{aboutObj.quote}</div>
+            <div className="aboutQuote">{aboutObj.quote}</div>
             <h5>--{aboutObj.quoteAuthor}--</h5>
           </div>
         <hr/>
-        <PeopleTabs/>
         <DegreesTabs/>
+        <hr/>
         <MinorsAcc/>
+        <hr/>
         <Employment/>
+        <hr/>
+        <PeopleTabs/>
       </div>
     </>
   )

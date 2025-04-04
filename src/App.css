@@ -12,10 +12,10 @@ body{
  position: sticky;
  top:0px;
  margin:0px;
- background-color: #1b1c1d;
+ background-color: rgb(134, 10, 35);
  color:white;
- padding: 0px;
- font-size: 20px;
+ padding: 15px;
+ font-size: 30px;
  font-weight: bold;
  z-index:9999;
  width:100vw;
@@ -23,15 +23,33 @@ body{
 .stick>h1{
   margin:0;
 }
+
 .About{
-  width:86vw;
-  margin-left:7vw;
+  /* width:86vw; */
+  /* margin-left:7vw; */
+  background-color: rgb(227, 227, 227);
+  color: rgb(0, 0, 0);
+  padding: 2em;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
 }
 .About>h2{
   margin:0;
 }
 .aboutQuote{
   padding:0 2em;
-  border: 3px solid gray;
+  background-color: gray;
+  border: rgb(70, 70, 70) 2px solid;
   border-radius: 15px;
+  color: rgb(224, 224, 224)
+}
+
+.About h5{
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin:0;
+  padding:0;
+  padding-top: 1em;
 }

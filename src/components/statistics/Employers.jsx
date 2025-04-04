@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
 import getData from '../../util/GetData.js';
+import './Employers.css';
 
 
 const Employers = () => {
@@ -22,11 +23,14 @@ const Employers = () => {
     return (
         <>
             <h2>{stats.title}</h2>
-            {stats.employerNames.map((e) => (
-                <div className="employerName">
-                    <li>{e}</li>
-                </div>
-            ))}
+            <div className="employers">
+                {stats.employerNames.map((e) => (
+                        <div className="employerName">
+                            <p>{e}</p>
+                        </div>
+                ))}
+            </div>
+
         </>
     )
 }

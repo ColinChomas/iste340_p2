@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 
 import getData from '../../util/GetData.js';
+import './StatisticsIntroduction.css';
 
 function StatisticsIntroduction(){
     //state
@@ -21,7 +22,7 @@ function StatisticsIntroduction(){
     if (!loaded) return (<h1>...Loading Introduction...</h1> )
     return (
         <>
-            <h2>{stats.title}</h2>
+            <h2 className="statsHeader">{stats.title}</h2>
             {stats.content.map((c) => (
                 <div>
                     <h3>{c.title}</h3>

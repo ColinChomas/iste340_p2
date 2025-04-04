@@ -1,0 +1,9 @@
+.minorHeader {
+    color: black;
+    font-weight: normal;
+    padding: 5px;
+}
+
+.minorItem {
+    border-right: 5px solid rgb(134, 10, 35);
+}
