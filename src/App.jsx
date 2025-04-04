@@ -27,7 +27,7 @@ const App = () => {
   useEffect(() => {
     getData('about/')
       .then((json) => {
-        console.log('worked', json);
+        // console.log('worked', json);
         //load the data into the object
         setAboutObj(json);
         //flip the bit on loaded
