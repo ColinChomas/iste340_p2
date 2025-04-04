@@ -18,7 +18,7 @@ const CoopTable = () => {
     return (
         <>
             <h2>{stats.title}</h2>
-            <table className="coopTable">
+            <table className="table table-striped table-bordered">
                 <thead>
                     <tr>
                         <th>Employer</th>

@@ -21,7 +21,7 @@ const EmploymentTable = () => {
     return (
         <>
             <h2>{stats.title}</h2>
-            <table className="employmentTable">
+            <table className="table table-striped table-bordered">
                 <thead>
                     <tr>
                         <th>Employer</th>
