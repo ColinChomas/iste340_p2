@@ -10,6 +10,7 @@ import PeopleTabs from './components/people/PeopleTabs.jsx';
 import DegreesTabs from './components/degrees/DegreesTabs.jsx';
 import MinorsAcc from './components/degrees/minors/MinorsAcc.jsx';
 import Employment from './components/statistics/Employment.jsx';
+import NavBar from './components/navbar/NavBar.jsx';
 
 //get the css
 import './App.css';
@@ -41,6 +42,7 @@ const App = () => {
         <h1>Welcome to the iSchool Website!</h1>
         <div></div>
       </div>
+      <NavBar/>
       <div className="App">
         <h1>Loading...</h1>
       </div>
@@ -49,10 +51,11 @@ const App = () => {
 
   return (
     <>
-      <div className="stick">
-        <h1>Welcome to the iSchool Website!</h1>
+      <div id="home" className="stick">
+        <h1 >Welcome to the iSchool Website!</h1>
         <div></div>
       </div>
+      <NavBar/>
       <div className="App">
           <div className="About">
             <h3>{aboutObj.title}</h3>
@@ -60,13 +63,13 @@ const App = () => {
             <div className="aboutQuote">{aboutObj.quote}</div>
             <h5>--{aboutObj.quoteAuthor}--</h5>
           </div>
-        <hr/>
-        <DegreesTabs/>
-        <hr/>
-        <MinorsAcc/>
-        <hr/>
+        <hr id="degrees" />
+        <DegreesTabs id="degrees"/>
+        <hr id="minors"/>
+        <MinorsAcc id="minors"/>
+        <hr id="employment"/>
         <Employment/>
-        <hr/>
+        <hr id="people"/>
         <PeopleTabs/>
       </div>
     </>

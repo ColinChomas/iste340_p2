@@ -3,7 +3,7 @@ import './Degrees.css';
 
 const DegreesGroup = ({title, degGroup}) => {
     return (
-        <>
+        <div >
             <Accordion defaultActiveKey="0" className="degreesAccordion">
                 {degGroup.map((d) => {
                     if (d.title) {
@@ -46,7 +46,7 @@ const DegreesGroup = ({title, degGroup}) => {
                     }
                 })}
             </Accordion>
-        </>
+        </div>
     )
 }
 

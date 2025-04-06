@@ -7,12 +7,16 @@ li {
 .employers {
     column-count: auto;
     column-width: 200px;
-    /* display: flex; */
+    display: flex;
     padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .employerName {
     font-size: 1.2em;
+    padding: 10px;
     /* font-weight: bold; */
     color: rgb(0, 0, 0);
 }

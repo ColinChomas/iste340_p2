@@ -24,7 +24,7 @@ function DegreesTabs() {
     if (!loaded) return (<h1>...Loading Degrees...</h1> )
     return (
         <>
-            <h1>iSchool Degrees</h1>
+            <h2>iSchool Degrees</h2>
             <Tabs
                 defaultActiveKey="undergraduate"
                 id="uncontrolled-tab-example"

@@ -23,8 +23,8 @@ function PeopleTabs() {
   if (!loaded) return (<h1>...Loading People...</h1> )
   return (
     <>
-      <h1>{people.title}</h1>
-      <h3>{people.subTitle}</h3>
+      <h2>{people.title}</h2>
+      <h4>{people.subTitle}</h4>
       <Tabs
         defaultActiveKey="faculty"
         id="uncontrolled-tab-example"

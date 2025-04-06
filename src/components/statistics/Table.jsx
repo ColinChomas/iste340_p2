@@ -15,7 +15,7 @@ const style = {
 
 const Table = ({ data, datakey }) => {
     if (!data || !data[datakey] || data[datakey].length === 0) {
-        return <h1>No data available</h1>;
+        return <h3>No data available</h3>;
     }
 
     // State for modal

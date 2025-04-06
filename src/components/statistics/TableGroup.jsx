@@ -22,7 +22,7 @@ const TableGroup = () => {
     if (!loaded) return (<h1>...Loading Tables...</h1> )
     return (
         <>
-            <h1>Tables</h1>
+            <h3>Tables</h3>
             <div className ="table-group">
                 <Table data={stats.coopTable} datakey="coopInformation"/>
                 <Table data={stats.employmentTable} datakey="professionalEmploymentInformation"/>

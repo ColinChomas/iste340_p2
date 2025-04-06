@@ -9,7 +9,7 @@ body{
 .stick
 {
  text-align:center;
- position: sticky;
+ /* position: sticky; */
  top:0px;
  margin:0px;
  background-color: rgb(134, 10, 35);
@@ -17,7 +17,7 @@ body{
  padding: 15px;
  font-size: 30px;
  font-weight: bold;
- z-index:9999;
+ z-index:1;
  width:100vw;
 }
 .stick>h1{
